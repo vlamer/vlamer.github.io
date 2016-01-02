@@ -1,0 +1,165 @@
+
+<!DOCTYPE html> 
+<html>
+  <head>
+    <link rel="shortcut icon" href="/favicon.ico" >
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>Hang Zhao</title>
+  <style type="text/css">
+    body {
+    font-family: "AtlasTypewriterRegular", "Andale Mono", "Consolas", "Lucida Console", "Menlo", "Luxi Mono", monospace;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    }
+
+    .yans { width: 500px; margin-left: 50px; margin-top: 30px;}
+    h1 {
+    font-family: "AtlasGroteskBold", "Helvetica Neue", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 0 20px 10px;
+    border-bottom: 1px solid #aaa;
+    color: black;
+    }
+    h2 {
+    font-family: "AtlasGroteskBold", "Helvetica Neue", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    }
+    
+    .t1 {font-weight: 300;}
+    .t2 {}
+    .t1 b {font-weight: 400;}
+    .containingbox
+    {
+    width: 850px;
+    height: 700px;
+    border: 1px solid #ffffff;
+    margin-left: auto; margin-right: auto;
+    margin-top: 40px;
+    }
+		
+    .floatright
+    {
+    float: right;
+    margin: 30px 110px 10px 10px;
+    }
+
+    reverse {
+    -webkit-filter: invert(100%);
+    }
+    
+    a:link,
+    a:visited     {
+    color: black;
+    text-decoration:underline;
+    }
+    
+    a:hover,
+    a:active    {
+    color: black;
+    text-decoration:underline;
+    }
+    #bg {  
+    position:fixed;   
+    top:0;   
+    left:0;   
+    width:100%;   
+    height:100%;  
+    }  
+    
+    #bg img {  
+    position:absolute;   
+    left:0;   
+    right:0;   
+    bottom:0;   
+    margin:auto;   
+    width:100%;  
+    height:100%;  
+    z-index:-1;  
+    }  
+    #content {
+    position:relative;
+    z-index:1;
+    }
+
+    .sociallink {
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    }
+
+    .sociallink:hover {
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+    }
+
+    .sociallink:active {
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+    }
+
+    .avatar{-webkit-border-radius:50%;border-radius:50%;border:1px #bbb solid;background-color:rgba(0,0,0,0.1);overflow:hidden}
+
+  </style>
+</head>
+
+<!--   <script language="javascript"> -->
+<!--     var d = 0; -->
+<!--     function e() { -->
+<!--       d += 0.01; -->
+<!--       document.body.setAttribute('style', '-webkit-transform:rotate('+Math.sin(d) * 3 + 'deg)'); -->
+<!--     setTimeout(e, 100); -->
+<!--     }; -->
+<!--   </script> -->
+<body>
+  <!-- <body bgcolor="#f9fcff"> -->
+  <!-- <body bgcolor="#27221a"> -->
+  <body bgcolor="white">
+<!--  <div id="bg"> 
+    <img src="./src/bg.jpg" alt=""> 
+  </div>   -->
+<div class="containingbox">
+<div class="floatright avatar">
+    <img src="./src/blackandwhite.jpg" width="190" height="190">
+</div>
+
+  <div id="content" class="yans">
+    <section>
+      <h1 class="t2">vl4m3r</h1>
+      <!-- <h2 class="t2">About</h2> -->
+      <p class="t1">Computer users are sometimes connected to the Internet network and Anonymous</p>
+      <p class="t1">I like k - drama , the digital world and the programming language. and I like to help people to become Anonymous hacktivis .</p>
+      <!-- <h2 class="t2">Follow me</h2> -->
+      <!-- Place this code where you want the badge to render. -->
+<!-- <a class="sociallink" href="https://github.com/findboat" rel="me" title="Github"> -->
+<!-- <img src="./src/github.png" alt="Github" style="border:0;width:40px;height:40px;-webkit-filter: invert(70%);"/></a> -->
+
+<!-- <a class="sociallink" href="http://plus.google.com/115287566664853441057" rel="me" title="Google+"> -->
+<!-- <img src="./src/gplus.png" alt="Google+" style="border:0;width:40px;height:40px;-webkit-filter: invert(70%);"/></a> -->
+
+<!-- <a class="sociallink" href="http://www.linkedin.com/profile/view?id=149586671" rel="me" title="Linkedin"> -->
+<!-- <img src="./src/linkedin.png" alt="Linkedin" style="border:0;width:40px;height:40px;-webkit-filter: invert(70%);"/></a> -->
+
+<!-- <a class="sociallink" href="https://www.facebook.com/hang.zhao.9" rel="me" title="Facebook"> -->
+<!-- <img src="./src/facebook.png" alt="Facebook" style="border:0;width:40px;height:40px;-webkit-filter: invert(70%);"/></a> -->
+
+      <p class="t1">You can find more about me at <a href="https://fb.me/vl4m3r">fb.me/vl4m3r</a> and my <a href="https:/vlamer.github.io/blog">Blog</a>.</p>
+      <!-- <h2 class="t2">Contact</h2> -->
+      <p class="t1">email: <a id="mailNode">nonsense at gmail com</a></p>
+      <!--<p class="t1">mobile: ?-???-???-????</p>-->
+    </section>
+  </div>
+</div>
+
+<script type="text/javascript">function setText(id,t){var el=document.getElementById(id);if(document.all){el.innerText=t;}else{el.textContent=t;}
+return el;}
+function showemail(d,u){var email=u+"@"+d;var el=setText('mailNode',email);el.setAttribute('href','mailto:'+email);}
+showemail('gmail.com','vlamer911');</script>
+</body>
+<!--   <script language="javascript"> -->
+<!--     e(); -->
+<!--   </script>  -->
+
+</html>
+
